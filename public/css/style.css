@@ -1,0 +1,48 @@
+/*Nav*/
+#nav-bar ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+#nav-bar  a {
+    text-decoration: none;
+}
+
+.burger-menu{
+    text-align: center;
+    font-size: 28px;
+    border-radius: 20px;
+}
+
+/*Main*/
+#main-content{
+    width: 90%;
+    margin: auto;
+}
+.product{
+    margin: 10px;
+}
+.img-contenet{
+    border: solid 1px white;
+}
+.product-contenet{  
+    border: solid 15px white;
+    
+}
+.icon-truck{
+    font-size: 25px;
+}
+.product-contenet .des {
+    display: none;
+}
+.site-nav{
+    display: none;
+}
+.login-nav{
+    display: none;
+}
+
+/*Footer*/
+.section-content
+.icon{
+    font-size: 1em;
+}
