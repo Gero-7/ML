@@ -34,12 +34,17 @@
 .product-contenet .des {
     display: none;
 }
+#nav-bar{
+    display: none;
+}
+
+/* 
 .site-nav{
     display: none;
 }
 .login-nav{
     display: none;
-}
+} */
 
 /*Footer*/
 .section-content
