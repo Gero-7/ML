@@ -22,19 +22,9 @@ body {
 }
 
 /*Colores*/
-.background-yellow {
-    background-color: yellow;
-}
-.background-gray{
-    background-color:rgba(102, 102, 102, 0.841);
-}
 .background-white{
     background-color: white;
 }
-.blue {
-    color: #03264C;
-}
-
 .green {
     color: #39b54a;
 }
@@ -43,13 +33,6 @@ body {
     color: #666;
 }
 
-.gray-white {
-    color: #ebebeb;
-}
-
-.celeste {
-    color: #1259c3;
-}
 .black{
     color: black;
 }
