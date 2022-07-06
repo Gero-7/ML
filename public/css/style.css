@@ -35,20 +35,32 @@
 .product{
     border: solid 1px white;
 }
-.product-img{
-    border: solid 1px white;
-}
+
+/* Sirve para ""separar"" los articulos con flex */
 .product-wrapper{
-    padding: 5px
+    padding: 15px;
 }
 
+.product-contenet{
+    border-top: solid 1px white;
+    position: relative;
+    padding: 15px;
+}
 .icon-truck{
-   font-size: 20px;
+   font-size: 16px;
+   border: solid green 1px;
+   border-radius: 50%;
+   padding: 5px;
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   right: 20px;
+   top: -15px;
 }
-.product-contenet .des {
-    display: none;
+.product-description{
+   display: flex;
+   flex-wrap: wrap;
 }
-
 
 /*Footer*/
 .section-content
