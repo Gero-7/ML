@@ -6,9 +6,37 @@
 }
 
 #nav-bar {
-    display: initial;
+    display: flex;
+    border: dotted red 2px;
+    justify-content: space-between;
+}
+#nav-bar ul{
+    display: flex;
+}
+#nav-bar li {
+    margin: 0 5px;
 }
 
 .product-wrapper{
     width: 50%;
 }
+/* barra*/
+
+.logo {
+    width: 33%;
+}
+.img-logo{
+    width: 50%;
+}
+
+.barra-busqueda {
+    width: 33%;
+    align-items: center;
+}
+
+.compras {
+    width: 33%;
+    align-items: center;
+}
+/* Nav */
+

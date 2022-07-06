@@ -3,6 +3,21 @@
     padding: 20px;
     background-color: #eac926;
 }
+.logo{
+    width: 50%;
+}
+.img-logo{
+    width: 100%;
+}
+.barra-busqueda{
+    width: 50%;
+    align-self: center;
+}
+.compras {
+    align-self: center;
+    width: 100%;
+}
+
 /*Nav*/
 #nav-bar ul {
     padding-left: 0;
