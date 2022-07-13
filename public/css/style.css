@@ -11,7 +11,17 @@
 }
 .barra-busqueda{
     width: 50%;
-    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.caja-busqueda{
+    padding: 5px;
+}
+.button-transform{
+        border: none;
+        transform: translateX(-20px);
+        background-color: transparent;
+        width: 0px;
 }
 .compras {
     align-self: center;
@@ -51,15 +61,20 @@
     border: solid 1px white;
 }
 
-/* Sirve para ""separar"" los articulos con flex */
+/* Sirve para ""separar"" los articulos como ""flex"" */
 .product-wrapper{
-    padding: 15px;
+   /*  padding: 15px; */
+   margin: 15px;
 }
 
 .product-contenet{
     border-top: solid 1px white;
     position: relative;
     padding: 15px;
+}
+.product-description{
+   display: flex;
+   flex-wrap: wrap;
 }
 .icon-truck{
    font-size: 16px;
@@ -72,14 +87,61 @@
    right: 20px;
    top: -15px;
 }
-.product-description{
-   display: flex;
-   flex-wrap: wrap;
-}
 
 /*Footer*/
-.section-content
-.icon{
-    font-size: 1em;
+ .iconito{
+    font-size: 20px;
     color: #1259c3;
+}
+.title-foo{
+    font-size: 20px;
+}
+.des-foo{
+    font-size: 12px;
+}
+/* FORMULARIO-register*/
+.form{
+  padding: 20px;
+}
+.form-input{
+    margin-bottom: 10px;
+}
+.form-input input {
+   width: 100%;
+   border-radius:8px;
+   border: 1px solid white;
+   padding: 8px;
+}
+.form-input .main-label{
+     display: block;
+     font-size: 16px;
+     font-weight: bold;
+}
+
+.form-input input[type="checkbox"]{
+    width: auto;
+}
+.form-input input[type="radio"] {
+    width: auto;
+}
+/* FORMULARIO-LOGINr*/
+.form-login{
+    padding:30px;
+}
+.form-input-login {
+    margin-bottom: 35px;
+}
+.form-input-login input {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.button-login{
+    background-color: #1259c3;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
 }

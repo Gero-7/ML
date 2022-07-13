@@ -1,10 +1,15 @@
-.burger-menu {
-    display: none;
-}
+/* Main */
 .product {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
+.product-wrapper{
+    width: calc(50% - 30px);
+}
+/* Nav */
+.burger-menu {
+    display: none;
+}
 #nav-bar {
     display: flex;
     border: dotted red 2px;
@@ -17,10 +22,7 @@
     margin: 0 5px;
 }
 
-.product-wrapper{
-    width: 50%;
-}
-/* barra*/
+/* Barra*/
 
 .logo {
     width: 33%;
@@ -35,8 +37,12 @@
 }
 
 .compras {
-    width: 33%;
+    width: 34%;
     align-items: center;
 }
-/* Nav */
 
+
+/* FOOTER */
+.des-foo {
+    font-size: 16px;
+}
