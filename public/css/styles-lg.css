@@ -1,8 +1,16 @@
+/* Main */
 .product-wrapper{
     width: 25%;
 }
+/* Footer */
 .iconito {
-    font-size: 40px;
+    font-size: 30px;
     color: #1259c3;
     margin-bottom: 10px;
+}
+.des-foo{
+ font-size: 10px;
+}
+.title-foo{
+    font-size: 18px;
 }

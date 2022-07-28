@@ -35,14 +35,29 @@
     width: 33%;
     align-items: center;
 }
+.caja-busqueda{
+    width: 100%;
+}
 
 .compras {
     width: 34%;
     align-items: center;
 }
 
+/* Formulario-register*/
 
-/* FOOTER */
-.des-foo {
-    font-size: 16px;
+.form {
+    padding: 30px 200px;
+}
+/* Formulario-login*/
+
+.form-login {
+    padding: 30px 200px;
+}
+/* Footer */
+.section-content{
+    width: 33%;
+}
+.copy{
+    margin-top: 20px;
 }

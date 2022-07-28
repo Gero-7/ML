@@ -11,8 +11,10 @@
 }
 .barra-busqueda{
     width: 50%;
+    height: 30%;
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 .caja-busqueda{
     padding: 5px;
@@ -63,8 +65,7 @@
 
 /* Sirve para ""separar"" los articulos como ""flex"" */
 .product-wrapper{
-   /*  padding: 15px; */
-   margin: 15px;
+    padding: 15px;
 }
 
 .product-contenet{
@@ -89,9 +90,14 @@
 }
 
 /*Footer*/
+.section-content:hover i{
+opacity: 1;
+color: gray;
+}
  .iconito{
     font-size: 20px;
     color: #1259c3;
+    transition: all 400ms;
 }
 .title-foo{
     font-size: 20px;
@@ -137,6 +143,9 @@
     border: 1px solid white;
     padding: 10px;
 }
+.button-login:hover{
+    background-color: #0022AA;
+}
 .button-login{
     background-color: #1259c3;
     width: 100%;
@@ -144,4 +153,5 @@
     border: 1px solid white;
     padding: 10px;
     color: white;
+    transition: all 400ms;
 }
