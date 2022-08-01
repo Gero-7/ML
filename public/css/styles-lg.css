@@ -1,3 +1,10 @@
+/* Header */
+.max-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+    
+
 /* Main */
 .product-wrapper{
     width: 25%;
