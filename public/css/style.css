@@ -2,7 +2,7 @@
 .header-ml{
     padding: 20px;
     background-color: #eac926;
-       text-align: center;
+    text-align: center;
 }
 .logo{
     width: 50%;
@@ -21,10 +21,10 @@
     padding: 5px;
 }
 .button-transform{
-        border: none;
-        transform: translateX(-20px);
-        background-color: transparent;
-        width: 0px;
+    border: none;
+    transform: translateX(-20px);
+    background-color: transparent;
+    width: 0px;
 }
 .compras {
     align-self: center;
@@ -32,6 +32,7 @@
 }
 
 /*Nav*/
+
 #nav-bar ul {
     padding-left: 0;
     list-style-type: none;
